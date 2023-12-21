@@ -3,18 +3,25 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@aws-amplify/auth": "^6.0.8",
     "@aws-amplify/ui-react": "^6.0.6",
+    "@aws-sdk/client-iot-data-plane": "^3.476.0",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "amazon-kinesis-video-streams-webrtc": "^2.2.0",
+    "aws-amplify": "^6.0.8",
+    "aws-iot-device-sdk": "^2.2.13",
     "aws-sdk": "^2.1519.0",
-    "aws-amplify": "^6.0.7",
+    "aws-signature-v4": "^1.4.0",
+    "crypto-js": "^4.2.0",
+    "mqtt": "^5.3.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.21.0",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "websocket-stream": "^5.5.2"
   },
   "scripts": {
     "start": "react-scripts start",
